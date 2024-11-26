@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "HelloWorld",
+			"path": "HelloWorld"
+		},
+		{
+			"name": "Hello_FC51",
+			"path": "Hello_FC51"
+		},
+		{
+			"name": "HelloDS18B20",
+			"path": "HelloDS18B20"
+		}
+	],
+	"settings": {}
+}
