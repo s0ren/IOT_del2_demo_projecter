@@ -1,0 +1,1 @@
+Demoer til brug i IoT undervisninge, som kan sende MQTT pakker til en MQTT broker.
