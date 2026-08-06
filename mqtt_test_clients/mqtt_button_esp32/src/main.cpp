@@ -9,9 +9,9 @@ const char* password = "98806829";
 // MQTT indstillinger
 const char* mqtt_server = "wilsons.local";  // eller en ip f.eks. "192.168.1.160"
 const int mqtt_port = 1883;
-const char* mqtt_topic = "test/esp32/button";
+const char* mqtt_topic = "demo/esp32/button";
 
-const int buttonPin = 32;
+const int buttonPin = 34;
 int lastButtonState = LOW;
 int buttonState = LOW;
 unsigned long lastDebounceTime = 0;
