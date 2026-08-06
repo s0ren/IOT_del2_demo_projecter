@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "EnKnapEnLed_Toggle",
+			"path": "../EnKnapEnLed_Toggle"
+		},
+		{
+			"name": "EnKnapEnLed_eventhandler",
+			"path": "../EnKnapEnLed_eventhandler"
+		},
+		{
+			"name": "EnKnapToLed_toggle_event",
+			"path": "../EnKnapToLed_toggle_event"
+		},
+		{
+			"name": "Deepsleep_EnKnap_ToLed",
+			"path": "../Deepsleep_EnKnap_ToLed"
+		},
+		{
+			"name": "Deepsleep_FireKnapper_FireLeder",
+			"path": "../Deepsleep_FireKnapper_FireLeder"
+		}
+	],
+	"settings": {}
+}

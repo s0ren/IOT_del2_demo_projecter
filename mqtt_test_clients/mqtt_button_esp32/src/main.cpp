@@ -7,7 +7,7 @@ const char* ssid = "IoT_H3/4";
 const char* password = "98806829";
 
 // MQTT indstillinger
-const char* mqtt_server = "wilson.local";  // f.eks. "192.168.1.100"
+const char* mqtt_server = "wilsons.local";  // eller en ip f.eks. "192.168.1.160"
 const int mqtt_port = 1883;
 const char* mqtt_topic = "test/esp32/button";
 
