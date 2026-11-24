@@ -14,6 +14,42 @@
 		{
 			"name": "HelloDS18B20",
 			"path": "HelloDS18B20"
+		},
+		{
+			"name": "deep_sleep_timer",
+			"path": "deep_sleep_timer"
+		},
+		{
+			"name": "deep_sleep_knap_timer",
+			"path": "deep_sleep_knap_timer"
+		},
+		{
+			"name": "esp_now_modtager",
+			"path": "esp_now_modtager"
+		},
+		{
+			"name": "esp_now_afsender",
+			"path": "esp_now_afsender"
+		},
+		{
+			"name": "filsystem_laes_skriv",
+			"path": "filsystem_laes_skriv"
+		},
+		{
+			"name": "filsystem_data_mappe",
+			"path": "filsystem_data_mappe"
+		},
+		{
+			"name": "filsystem_cache",
+			"path": "filsystem_cache"
+		},
+		{
+			"name": "lokal_mqtt_tls",
+			"path": "lokal_mqtt_tls"
+		},
+		{
+			"name": "mqtt_intro_potentiometer",
+			"path": "mqtt_intro_potentiometer"
 		}
 	],
 	"settings": {}
