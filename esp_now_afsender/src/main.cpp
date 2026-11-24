@@ -85,6 +85,11 @@ void loop() {
 
   if (kvitteringKlar) {
     kvitteringKlar = false;
-    Serial.println(sidsteKvitteret ? "  kvitteret af modtageren" : "  IKKE kvitteret");
+    if (memcmp(modtager.addr(), ESP_NOW.BROADCAST_ADDR, 6) == 0) {
+      // Ved broadcast giver onSent() altid success, så kvitteringen siger intet
+      Serial.println("  sendt som broadcast (ingen kvittering)");
+    } else {
+      Serial.println(sidsteKvitteret ? "  kvitteret af modtageren" : "  IKKE kvitteret");
+    }
   }
 }
